@@ -3,10 +3,6 @@ import React from "react";
 const Skills = () => {
   return (
     <div className="row">
-      <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-        <h2 className="text-center mb-5">Skills</h2>
-      </div>
-
       <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
         <div className="progress-wrap">
           <h3 className="skills-h3">Photoshop</h3>

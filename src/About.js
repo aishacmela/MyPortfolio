@@ -2,12 +2,16 @@ import React from "react";
 import "./About.css";
 import ayisha from "./Images/ayisha.jpg";
 import Skills from "./Skills";
-
+import Resume from "./resume";
 
 const About = () => {
   return (
     <div className="content-container container">
       <div className="row">
+        <div className="col-lg-6">
+          <img src={ayisha} className="img-fluid mt-5" alt="Ayisha" />
+          <Skills />
+        </div>
         <div className="col-lg-6">
           <div className="content">
             <h1 className="mb-4">Hi, I am Ayisha Seimela</h1>
@@ -25,11 +29,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="col-lg-6">
-          <img src={ayisha} className="img-fluid mt-5" alt="Ayisha" />
-        </div>
       </div>
-      <Skills />
     </div>
   );
 };

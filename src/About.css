@@ -17,11 +17,9 @@
 }
 
 .content-container img {
-  border-radius: 10px;
-  border-radius: 50%;
-  height: 350px;
-  width: 250px;
-  display: block;
+  height: auto;
+  max-width: 25%;
+  display: start;
   margin: auto;
 }
 
@@ -32,7 +30,7 @@
 .content {
   margin: 30px;
 }
-.skills-h3{
+.skills-h3 {
   font-size: smaller;
   margin-top: 8px;
 }
