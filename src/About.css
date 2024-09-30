@@ -1,0 +1,38 @@
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1;
+  font-family: var(--default-font-family);
+}
+.content p {
+  font-size: 14px;
+}
+
+.content-container img {
+  border-radius: 10px;
+  border-radius: 50%;
+  height: 350px;
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.content-container {
+  padding: 60px 20px;
+}
+
+.content {
+  margin: 30px;
+}
+.skills-h3{
+  font-size: smaller;
+  margin-top: 8px;
+}

@@ -1,0 +1,14 @@
+.logo{
+    max-height: 60px;
+    border-radius: 10px;
+}
+.active{
+    color: var(--branding-color) !important;
+}
+.nav-item{
+    padding: 0 20px;
+}
+
+.nav-item a:hover{
+    color: var(--branding-color) !important;
+}
